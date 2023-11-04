@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="register.css">
+    <link rel="icon" href="customer-service.png" >
+    <title>Register</title>
+</head>
+<body>
+   <div class="main">
+    <div class="register">
+        <h1>Registration Here</h1>
+        <form id="register" method="post" action="thanks.html">
+       <label> Name :</label>
+       <br>
+       <input type="text"id="name" required name="name" placeholder="Ram">
+       <br><br>
+       <label>Email :</label>
+       <br>
+       <input type="text"id="email"required name="email" placeholder="ramj@email.com">
+       <br><br>
+       <label>contact no.</label>
+       <br>
+        <input type="text" id="phone" required name="phone" placeholder="+91 987 654 3210"pattern="[6-9]{1}[0-9]{9}">
+        <br><br>
+        <label> Year of Passing: </label>
+        <br>
+        2019: <input type="radio">
+        2020: <input type="radio">
+        2021: <input type="radio">
+        2022: <input type="radio">
+        2023: <input type="radio">
+    <br><br>
+       <label > Mode Of Training:</label>
+        &nbsp;
+        <select name="drop-down" id="">
+            <option value="onlile">Onlile</option>
+            <option value="offline">Offline</option>
+        </select>
+    <br><br>
+        <input type="submit" value="Submit" name="submit" id="submit">
+    </form> 
+    </div>
+    </div>
+</body>
+</html>
